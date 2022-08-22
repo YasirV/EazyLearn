@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:title="Games">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/lblWord"
+            android:layout_width="238dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/ABtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/BBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/CBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/DBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="D" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/EBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="E" />
+
+            <Button
+                android:id="@+id/FBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="F" />
+
+            <Button
+                android:id="@+id/GBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="G" />
+
+            <Button
+                android:id="@+id/HBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="H" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/IBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="I" />
+
+            <Button
+                android:id="@+id/JBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="J" />
+
+            <Button
+                android:id="@+id/KBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="K" />
+
+            <Button
+                android:id="@+id/LBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="L" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/MBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="M" />
+
+            <Button
+                android:id="@+id/NBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="N" />
+
+            <Button
+                android:id="@+id/OBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="O" />
+
+            <Button
+                android:id="@+id/PBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="P" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/QBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="Q" />
+
+            <Button
+                android:id="@+id/RBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="R" />
+
+            <Button
+                android:id="@+id/SBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="S" />
+
+            <Button
+                android:id="@+id/TBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="T" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/UBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="U" />
+
+            <Button
+                android:id="@+id/VBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="V" />
+
+            <Button
+                android:id="@+id/WBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="W" />
+
+            <Button
+                android:id="@+id/XBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="X" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/YBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="Y" />
+
+            <Button
+                android:id="@+id/ZBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="createWord"
+                android:text="Z" />
+
+            <Button
+                android:id="@+id/btnCheck"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:onClick="checkWord"
+                android:text="Check" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:onClick="clearWord"
+                android:text="Clear" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lblResult"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/lblPoints"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Points : 0 | Chances : 3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

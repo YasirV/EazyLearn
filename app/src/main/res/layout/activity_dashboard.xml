@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registerActivity"
+    android:background="@color/white">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:gravity="center">
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="Alphabets Learned:"
+        android:textStyle="bold"
+        />
+        <TextView
+            android:id="@+id/dashalphabet"
+            android:layout_width="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="-"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="Alphabets Learned to Write:"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/dashwrite"
+            android:layout_width="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="-"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="Rhymes Watched:"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/dashrhymes"
+            android:layout_width="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="-"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="Stories Watched:"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/dashstories"
+            android:layout_width="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="-"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="Pronounciation Highscore:"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/dashpronounce"
+            android:layout_width="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="-"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="Games Played:"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/dashgames"
+            android:layout_width="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="-"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="High Score:"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/dashhighscore"
+            android:layout_width="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="-"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>

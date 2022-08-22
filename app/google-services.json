@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "329705827369",
+    "firebase_url": "https://eazylearn-2e1e2-default-rtdb.firebaseio.com",
+    "project_id": "eazylearn-2e1e2",
+    "storage_bucket": "eazylearn-2e1e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329705827369:android:a37453268ee95462254038",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329705827369-30n1fp3lkmspj989coj3erlmuiv4ckek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVth1sPsIpZEa7Lr-RmMV6gOdLyM_D5yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329705827369-30n1fp3lkmspj989coj3erlmuiv4ckek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329705827369:android:fa22994cdb85a915254038",
+        "android_client_info": {
+          "package_name": "com.wheic.EazyLearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329705827369-30n1fp3lkmspj989coj3erlmuiv4ckek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVth1sPsIpZEa7Lr-RmMV6gOdLyM_D5yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329705827369-30n1fp3lkmspj989coj3erlmuiv4ckek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
